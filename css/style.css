@@ -1,0 +1,387 @@
+/*--For padding top slider--*/
+body {
+  padding-top: 50px;
+  margin: auto
+}
+.col-sm-2 img,
+.col-xs-6 img {
+  margin-top: 10px;
+}
+@media screen and (max-width: 768px){
+  .col-xs-6 .thumbnail p {
+   display: none;
+  }
+  .carousel-caption p{
+    font-size: 12px;
+  }
+}
+/*--custon thubnail--
+@media screen and (max-width: 768px){
+#myProjects .thumbnail::after {
+  content: attr(none);
+  font-size: 1rem;
+  padding-top:5px;
+  }
+#myProjects .thumbnail::before {
+
+   content: attr(none);
+  font-size: 1rem;
+  padding-top:5px;
+}
+}
+--*/
+/*--navigation--*/
+.navbar {
+  font-family: 'Oswald', sans-serif;
+  font-size:1.5em;
+  font-weight:bold;
+  width:100%;
+ }
+#navbar-menu>li>a:hover,
+#navbar-menu>li>a:focus {
+
+    background-color:grey;
+}
+.nav {
+  font-weight:bold;
+  float:right;}
+.navbar-inverse .navbar-nav > li > a { color: blue;}
+
+
+
+.nav li       {opacity:1;}
+.nav li:hover { opacity:1;}
+.navbar-inverse .navbar-nav > li > a:hover { color: red;}
+
+
+
+.navbar-brand       { opacity:0.5;}
+.navbar-brand:hover { opacity:1;}
+
+.bigheight {
+  height: 4000px;
+}
+/*--The END navigation--*/
+/* carousel */
+.media-carousel
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Next button  */
+.media-carousel .carousel-control.right
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+/*--Start Learning--*/
+#nested-container {
+  background-color: #0c1a1e; /*#2F2F2F;*/
+  overflow: hidden;
+}
+
+#center-certs {
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+
+#nested-list {
+
+  color: #EEE;
+  min-height: 150px;
+  width: 275px;
+  padding-top: 6px;
+  padding-bottom: 3px;
+  margin: auto;
+}
+
+#nested-list ul {
+  font-size: 18px;
+  font-family:Courier;
+}
+
+#nested-list ul li {
+  text-align: left !important;
+}
+
+#nested-list ul li ul li {
+  line-height: 1;
+  text-align: left !important;
+
+  list-style-image: url("https://res.cloudinary.com/dettdbzuc/image/upload/v1488929048/Logos/nested.png");
+  padding: 5px -10px 5px 18px;
+  font-size: 15px;
+}
+
+#nested-list ul li ul li a {
+  color: #BFE1F1;
+  height: 15px;
+  margin-left: 10px;
+}
+
+#nested-list ul li ul li a span {
+  vertical-align: top;
+  margin-left: -15px;
+  font-family:Courier;
+}
+
+div ul li {
+  list-style: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+.margin {
+  margin-bottom: 45px;
+}
+
+.bg-1 {
+  background-color: #2F2F2F;
+  /* Black Gray */
+  color: #ffffff;
+  overflow: hidden;
+}
+h3 #font-span {
+  color: red;
+  font-size: 34px;
+}
+/*-- End learning nested container-- */
+/*--certif--*/
+
+/*--END certif--*/
+/*--MMini CORousel--*/
+
+/* carousel */
+.media-carousel
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Next button  */
+
+.media-carousel .carousel-control.right
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+/*For mini carusel--*/
+.carousel-control {
+  padding-top:10%;
+  width:5%;
+}
+/*--ENG srills-Corousel--*/
+/*--Thumbnail for img--*/
+#myProjects .thumbnail {
+    -webkit-backface-visibility: hidden;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    /*background: #000;--*/
+
+}
+#myProjects .thumbnail img {
+    display: block;
+    max-width: 100%;
+    transition: opacity .2s ease-in-out;
+}
+#myProjects .thumbnail:hover img {
+    opacity: .5;
+}
+#myProjects .thumbnail::after,
+#myProjects .thumbnail::before {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 50%;
+    transition: transform .4s ease-out;
+    color: #fff;
+}
+#myProjects .thumbnail::after {
+    content: attr(data-title);
+    top: 0;
+    padding-top: 55px;
+    transform: translateY(-100%) scale(.8);
+    background: rgba(0,0,0,.4);
+    font-size: 3.0rem;
+    font-weight: 300;
+    font-family: Merriweather, serif;
+    text-align: center;
+}
+#myProjects .thumbnail::before {
+    content: attr(data-description) "…";
+    top: 50%;
+    padding: 20px;
+    transform: translateY(100%) scale(.8);
+    background: rgba(107,38,68,.6);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    color: #f1f1f1;
+    font-size: 1.5rem;
+}
+#myProjects .thumbnail:hover::after,
+#myProjects .thumbnail:hover::before {
+    transform: translateY(0%) scale(1);
+}
+
+
+/*--end thumbnail--*/
+#myProjects .thumbnail:data-description,
+#myProjects .thumbnail:data-title {
+  font-size: 16px;
+}
+/*--The End mini carusel--*/
+/*--FOOTER--*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', sans-serif; }
+.footerleft { margin-top:50px; padding:0 36px; }
+.logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
+
+.footerleft p { color:#fff; font-size:12px !important; font-family: 'Open Sans', sans-serif; margin-bottom:15px;}
+.footerleft p i { width:20px; color:#999;}
+
+
+.paddingtop-bottom {  margin-top:50px;}
+.footer-ul { list-style-type:none;  padding-left:0px; margin-left:2px;}
+.footer-ul li { line-height:29px; font-size:12px;}
+.footer-ul li a { color:#a0a3a4; transition: color 0.2s linear 0s, background 0.2s linear 0s; }
+.footer-ul i { margin-right:10px;}
+.footer-ul li a:hover {transition: color 0.2s linear 0s, background 0.2s linear 0s; color:red; }
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+
+
+
+
+ .icon-ul { list-style-type:none !important; margin:0px; padding:0px;}
+ .icon-ul li { line-height:75px; width:100%; float:left;}
+ .icon { float:left; margin-right:5px;}
+
+
+ .copyright { min-height:40px; background-color:#000000;}
+ .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0px;}
+ .heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
+ .post p { font-size:12px; color:#FFF; line-height:20px;}
+ .post p span { display:block; color:#8f8f8f;}
+ .bottom_ul { list-style-type:none; float:right; margin-bottom:0px;}
+ .bottom_ul li { float:left; line-height:40px;}
+ .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
+ .bottom_ul li a { color:#FFF;  font-size:12px;}
+/*--End footer--*/
+/*--fromme--img background--*/
+#mailimg {
+  background-image: url("/img/maxresdefault.jpg");
+}
+.panel {
+  margin-top: 20px;
+  opacity:0.8;
+}
+.page-header {
+  font-family: 'Special Elite', cursive;
+  font-size:300%;
+  color: red;
+}
+blockquote>a,
+#nested-list li a{
+  color:blue;
+}
+
+.aboutmetxt p {
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color:#000;
+}
