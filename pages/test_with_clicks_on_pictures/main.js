@@ -12,10 +12,10 @@
 			total = 0;
 			showBlocks(n);
 
-			$('.my img').on("click", function(){
+			$('.my img').on("click", function(event){
 
-				var e = event || window.event;
-				var target = e.target;
+				var event = event || window.event;
+				var target = event.target || event.srcElement;
 				a = target.getAttribute('value');
 
 				if( a === "1" || a === "6" || a === "9" || a === "14" || a === "18" || a === "20" || a === "24" ||
