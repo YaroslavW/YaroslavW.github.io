@@ -206,13 +206,7 @@ h3 #font-span {
   padding-top:10%;
   width:5%;
 }
-/*--END srills-Corousel--*/
-/* ===About ME */
-.btn-success:hover {
-  color: green;
-  background-color: #fff;
-}
-
+/*--ENG srills-Corousel--*/
 /*--Thumbnail for img--*/
 #myProjects .thumbnail {
     backface-visibility: hidden;
