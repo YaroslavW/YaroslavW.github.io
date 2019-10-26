@@ -1,0 +1,67 @@
+body{
+	background-image: url("img/bgi.png");
+	background-repeat: repeat;
+
+}
+
+img {
+	margin: 15px 0;
+}
+
+.col-md-8 {
+	background-color: lightgreen;
+}
+
+.col-md-12 {
+	background-color: rgba(160,252,160, 0.9);
+}
+
+.my {
+	background-color: #BEE171;
+}
+
+.block {
+	display: none;
+}
+
+.result {
+	font-family: Roboto;
+	font-size: 2em;
+	margin-top: 100px;
+	display: none;
+}
+
+.res {
+	margin: 5% auto;
+  padding: 5px 35px;
+  display: none;
+}
+
+
+/*indicator*/
+.wrapper {
+  width: auto;
+
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  padding: 3px;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
+}
+
+.progress-bar-fill {
+  display: block;
+  height: 22px;
+  background-color: #659cef;
+  border-radius: 3px;
+  transition: width 500ms ease-in-out;
+}
+
+@media  screen and (max-width: 450px){
+	.progress-bar-fill {
+  transition: none;
+}
+}

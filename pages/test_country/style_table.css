@@ -1,0 +1,23 @@
+ table {
+	width: 400px;
+	/*height: 30px;*/
+	position: fixed;
+	background-color: lightgrey;
+	border-collapse: separate; 
+	border-spacing: 5px 10px;
+	border-color: black;
+	empty-cells: show;
+}
+
+td{
+	width: 10px;
+	height: 10px;
+	text-align: center;
+}
+
+.square>td{
+	border: 1px solid black;
+		width: 10px;
+	height: 20px;
+	background-color: red;
+}

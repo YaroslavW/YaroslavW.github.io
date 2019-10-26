@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello World</title>
+      <!-- 1. Подключаем скомпилированный и минимизированный файл CSS Bootstrap 3 -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  
+  
+  
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700,700i,900,900i" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+<h1>Площадь неправильного выпуклого четырехугольника с прямым углом</h1>
+            </div><!--/c-12-->
+            </div><!-- /row-->
+        <div class="row">
+            <div class="col-md-6">
+<p>Для того, чтобы вычислить площадь неправильного выпуклого четырехугольника с прямым углом, вам нужно ввести размеры его сторон в виде целых чисел, <strong>обязательно указав стороны А и В, как прилежащие к прямому углу</strong>.</p>
+            </div><!--/c-6-->
+            <div class="col-md-6">
+<img src="https://lh3.googleusercontent.com/gqIWDfyJIl_PUstQ-e8Z3q3jFRBFs-2wF4g30aOucymc0dFabMS46vHpw_GxyTHcwcICGS-_MXfT7w8zO1LuR4eAauFdiDwQWMm3PLLs-q-scHm7IsboGIqixsUZ0DyBaIlM7gIJoUQd2JLZoM8ej_2R8jPpf5hqqTV4Pq2XbDuUXC2M_MAL8JTt61eodZgACAC94LOOzB3Fc-DDUCX4QV7DUkim9qniRuyOLwBufrPhDvHs7BCH3vhV99wkAwixBNG_QoyeeZuQZ13nfFTichly2DnJdDidmU-kiZaycQnA35-YTgDB1uV_Hxh-_oMwnWbV7xFkc2gBgnwA4XPRKoYYJdc-aj83wuGrGnYGRBG39HhllqioIUK5Z_dIf_0lh_bttFf8fCFvMSVQCMIxXpBCadO7Foj-7eWgmB1pz3eBAxHTnnfCcw6KCeN-Bj80w6Z0rmK7ZPKritVHvZ2EKW_xgZVrM5DZ1pzOQCb8pNR0v9JMyuqKz1khgcinGN9-D1d5c2mSIhwg6_krt2YmFwHPiGSyg9gLwtLOdauNWC_cQ0wZzcVBA9NMouZ_XPreeXpExu0_g-Kw3JvWQPhR6B7BRXgyIwBIKgPBAU85vBvh9-HPuMU-=w477-h379-no" class="img-responsive" alt="Картинка неправильного четырехугольника">
+            </div><!--/c-6-->
+</div><!-- /row-->
+<div class="row">
+    <div class="col-md-6 col-md-offset-3">
+ <h2>Ориентируйтесь по картинке. </h2>
+ <div class="col-xs-12">
+<label>
+Side A: <input id="sA" type="number" min="1" max="1000" step="1"><br />
+</label>
+</div>
+<div class="col-xs-12">
+<label>
+Side B: <input id="sB" type="number" min="1" max="1000" step="1"><br />
+</label>
+</div>
+<div class="col-xs-12">
+<label>
+Side C: <input id="sC" type="number" min="1" max="1000" step="1"><br />
+</label>
+</div>
+<div class="col-xs-12">
+<label>
+Side D: <input id="sD" type="number" min="1" max="1000" step="1"><br />
+</label>
+</div>
+<div class="col-xs-12">
+<button id="say" class="btn btn-success btn-lg" onclick="say_hi()">Вычислить</button>
+</div>
+<div class="col-xs-12">
+<hr>
+<div id="result" class="content"></div>
+<hr>
+</div><!--xs-12-->
+<button id="myClear"  class="btn btn-primary btn-lg" onclick="myclear()">Очистить</button>
+</div><!--c-md-o-6-->
+</div><!--/row-->
+<div class="row">
+    <div class="col-md-12 text-center" id="footer">
+<p >All right reserved &copy;<br />Created with love by Yroslav Kolesnikov</p>
+    </div><!--md-12-->
+</div><!-- /row-->
+
+</div><!--/container-->
+<!--bootstrap-min.js-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--Подключаем JQuery -->
+<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+<script src="main.js"></script>
+
+
+
+</body>
+</html>
